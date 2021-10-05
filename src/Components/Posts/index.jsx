@@ -8,6 +8,7 @@ export const Posts = ({ posts }) => (
         title={post.title}
         body={post.body}
         id={post.id}
+        key={post.id}
         cover={post.cover}
       />
     ))}
